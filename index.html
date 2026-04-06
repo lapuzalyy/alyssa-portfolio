@@ -31,17 +31,7 @@ card.style.transform = "translateY(0)";
 });
 
 </script>
-
-<script>
-
-const toggle = document.getElementById("darkModeToggle");
-
-toggle.onclick = () => {
-document.body.classList.toggle("dark-mode");
-};
-
-</script>
-
+  
 <body>
 
 <header>
@@ -147,6 +137,14 @@ system efficiency.
 
 </footer>
 
+  <script>
+const toggle = document.getElementById("darkModeToggle");
+
+toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
+</script>
+  
 </body>
 </html>
 
