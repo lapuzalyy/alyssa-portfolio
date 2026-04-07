@@ -136,7 +136,7 @@ transform:translateY(-3px);
 
 /* Optional: Different color for CV button */
 .btn-cv {
-  background: #22c55e; /* green theme */
+  background:white; /* green theme */
   color: white;
 }
 
