@@ -216,8 +216,7 @@ margin-top:10px;
 /* FOOTER */
 
 footer{
-background:#111;
-color:white;
+background: rgba(255, 255, 255, 0.7);
 text-align:center;
 padding:20px;
 backdrop-filter:blur(10px);
