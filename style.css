@@ -243,7 +243,7 @@ grid-template-columns:1fr 1fr;
 /* DARK MODE */
 
 .dark-mode{
-background:#0f172a;
+background:#061208;
 color:white;
 }
 
@@ -267,7 +267,7 @@ color:white;
 }
 
 .dark-mode footer{
-background:#020617;
+background:#061208;
 }
 
 .dark-mode .logo{
