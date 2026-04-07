@@ -137,7 +137,7 @@ transform:translateY(-3px);
 /* Optional: Different color for CV button */
 .btn-cv {
   background:white; /* green theme */
-  color: black;
+  color: #333;
 }
 
 .btn-cv:hover {
