@@ -280,8 +280,8 @@ color:#60a5fa;
 
 #darkModeToggle {
   font-size: 20px;
-  padding: 12px 24px;
-  border-radius: 12px;
+  padding: 0;
+  background: transparent;
   border: none;
   cursor: pointer;
   transition: transform 0.2s;
