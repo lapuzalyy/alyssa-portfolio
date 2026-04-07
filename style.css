@@ -6,7 +6,7 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:white;
+background: linear-gradient(135deg, #336a29, #eaef9d);
 color:#333; 
 line-height:1.6;
 transition: background 0.4s, color 0.4s;
@@ -81,7 +81,7 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-background: linear-gradient(135deg, #336a29, #eaef9d);
+/*background: linear-gradient(135deg, #336a29, #eaef9d);*/
 color:white;
 padding:20px;
 
@@ -293,8 +293,12 @@ color:#60a5fa;
 
 .dark-mode .card,
 .dark-mode .project-card{
-background:#1e293b;
-color:white;
+background:#061208;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 6px 15px rgba(0,0,0,0.08);
+transition:.3s;
 }
 
 .dark-mode footer{
