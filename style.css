@@ -113,6 +113,37 @@ transition:.3s;
 transform:translateY(-3px);
 }
 
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px; /* space between buttons */
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 30px;
+  background: white;
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/* Optional: Different color for CV button */
+.btn-cv {
+  background: #22c55e; /* green theme */
+  color: white;
+}
+
+.btn-cv:hover {
+  transform: translateY(-3px);
+  background: #16a34a; /* darker green on hover */
+}
 /* SECTIONS */
 
 section{
