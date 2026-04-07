@@ -279,10 +279,9 @@ color:#60a5fa;
 }
 
 #darkModeToggle {
-  font-size: 28px;
+  font-size: 20px;
   padding: 12px 24px;
   border-radius: 12px;
-  background: #22c55e; /* green theme */
   color: white;
   border: none;
   cursor: pointer;
