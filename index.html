@@ -17,16 +17,16 @@ const cards = document.querySelectorAll(".card, .project-card");
 
 window.addEventListener("scroll", () => {
 
-cards.forEach(card => {
+  cards.forEach(card => {
 
-const cardTop = card.getBoundingClientRect().top;
+  const cardTop = card.getBoundingClientRect().top;
 
-if(cardTop < window.innerHeight - 50){
-card.style.opacity = "1";
-card.style.transform = "translateY(0)";
-}
+  if(cardTop < window.innerHeight - 50){
+    card.style.opacity = "1";
+    card.style.transform = "translateY(0)";
+    }
 
-});
+  });
 
 });
 
