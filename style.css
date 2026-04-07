@@ -274,7 +274,7 @@ grid-template-columns:1fr 1fr;
 /* DARK MODE */
 
 .dark-mode{
-background:#061208;
+background:linear-gradient(135deg, #336a29, #000000);
 color:white;
 }
 
