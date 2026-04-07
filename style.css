@@ -109,10 +109,6 @@ text-decoration:none;
 transition:.3s;
 }
 
-.btn:hover{
-transform:translateY(-3px);
-}
-
 .hero-buttons {
   margin-top: 25px;
   display: flex;
@@ -130,8 +126,10 @@ transform:translateY(-3px);
   transition: .3s;
 }
 
-.btn:hover {
+.btn:hover,
+.btn-cv:hover {
   transform: translateY(-3px);
+  background: #336a29;
 }
 
 /* Optional: Different color for CV button */
@@ -142,7 +140,7 @@ transform:translateY(-3px);
 
 .btn-cv:hover {
   transform: translateY(-3px);
-  background: #16a34a; /* darker green on hover */
+  background: #336a29; /* darker green on hover */
 }
 /* SECTIONS */
 
