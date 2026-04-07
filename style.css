@@ -126,10 +126,10 @@ transition:.3s;
   transition: .3s;
 }
 
-.btn:hover,
-.btn-cv:hover {
+.btn:hover {
   transform: translateY(-3px);
-  background: #336a29;
+  background: pink;
+  color:white;
 }
 
 /* Optional: Different color for CV button */
@@ -140,8 +140,10 @@ transition:.3s;
 
 .btn-cv:hover {
   transform: translateY(-3px);
-  background: #336a29; /* darker green on hover */
+  background: #pink;
+  color: pink;/* darker green on hover */
 }
+
 /* SECTIONS */
 
 section{
