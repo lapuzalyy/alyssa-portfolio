@@ -48,6 +48,8 @@ padding-bottom:5px;
 transition:.3s;
 }
 
+/* NAV LINKS */
+
 nav a::after{
 content:"";
 position:absolute;
@@ -55,7 +57,7 @@ left:0;
 bottom:0;
 width:0%;
 height:2px;
-background:#4f46e5;
+background:#f29399; /* pink underline */
 transition:0.3s;
 }
 
@@ -64,11 +66,11 @@ width:100%;
 }
 
 nav a:hover{
-color: #336a29;
+color:#f29399;
 }
 
 nav a.active{
-color: #336a29;;
+color:#f29399;
 font-weight:600;
 }
 
@@ -103,10 +105,16 @@ margin-top:25px;
 padding:12px 28px;
 border-radius:30px;
 background:white;
-color:#333;
+color:black;
 font-weight:600;
 text-decoration:none;
 transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+background:#f29399;
+color:white;
 }
 
 .hero-buttons {
@@ -116,33 +124,18 @@ transition:.3s;
   justify-content: center;
 }
 
-.btn {
-  padding: 12px 28px;
-  border-radius: 30px;
-  background: white;
-  color:black;
-  font-weight: 600;
-  text-decoration: none;
-  transition: .3s;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-  background: pink;
-  color:white;
-}
-
 /* Optional: Different color for CV button */
-.btn-cv {
-  background:white; /* green theme */
-  color: #333;
+.btn-cv{
+background:white;
+color:black;
 }
 
-.btn-cv:hover {
-  transform: translateY(-3px);
-  background: #pink;
-  color: pink;/* darker green on hover */
+.btn-cv:hover{
+transform:translateY(-3px);
+background:#f29399;
+color:white;
 }
+
 
 /* SECTIONS */
 
@@ -273,14 +266,13 @@ grid-template-columns:1fr 1fr;
 }
 
 /* DARK MODE */
-
 .dark-mode{
 background:linear-gradient(135deg, #f29399, #000000);
 color:white;
 }
 
 .dark-mode header{
-background:rgba(15,23,42,0.7);
+background:rgba(0,0,0,0.7);
 backdrop-filter:blur(10px);
 }
 
@@ -289,40 +281,23 @@ color:white;
 }
 
 .dark-mode nav a:hover{
-color:#60a5fa;
+color:#f29399;
+}
+
+.dark-mode nav a.active{
+color:#f29399;
 }
 
 .dark-mode .card,
 .dark-mode .project-card{
-background:#061208;
+background:#111;
 padding:25px;
 border-radius:10px;
 text-align:center;
-box-shadow:0 6px 15px rgba(0,0,0,0.08);
+box-shadow:0 6px 15px rgba(0,0,0,0.3);
 transition:.3s;
 }
 
 .dark-mode footer{
-background:#061208;
-}
-
-.dark-mode .logo{
-color:white;
-}
-
-.dark-mode nav a.active{
-color:#60a5fa;
-}
-
-#darkModeToggle {
-  font-size: 20px;
-  padding: 0;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-#darkModeToggle:hover {
-  transform: scale(1.1);
+background:#111;
 }
