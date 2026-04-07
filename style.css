@@ -6,7 +6,7 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background: linear-gradient(135deg, #336a29, #eaef9d);
+background: linear-gradient(135deg, #f29399, #f1efb6);
 color:#333; 
 line-height:1.6;
 transition: background 0.4s, color 0.4s;
