@@ -64,11 +64,11 @@ width:100%;
 }
 
 nav a:hover{
-color:#4f46e5;
+color: #336a29;
 }
 
 nav a.active{
-color:#4f46e5;
+color: #336a29;;
 font-weight:600;
 }
 
