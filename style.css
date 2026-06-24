@@ -252,18 +252,16 @@ transform:translateY(0);
 
 
 
-/* =====================
-   MOBILE RESPONSIVE
-===================== */
-
+/* MOBILE RESPONSIVE */
 
 @media(max-width:768px){
-
 
 body{
 overflow-x:hidden;
 }
 
+
+/* NAVBAR */
 
 header{
 position:fixed;
@@ -273,41 +271,40 @@ width:100%;
 }
 
 
-/* NAV */
-
 nav{
-flex-direction:column;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
 padding:15px 20px;
-gap:10px;
 }
 
+
+/* make menu horizontal */
 
 nav ul{
 flex-direction:row;
 flex-wrap:wrap;
 justify-content:center;
-gap:15px;
+gap:12px;
 }
 
 
 nav a{
-font-size:14px;
+font-size:13px;
 }
-
 
 
 /* HERO */
 
 .hero{
 height:auto;
-min-height:85vh;
-padding:120px 20px 60px;
+min-height:100vh;
+padding:140px 20px 60px;
 }
 
 
 .hero h1{
-font-size:34px;
-line-height:1.2;
+font-size:32px;
 }
 
 
@@ -315,7 +312,6 @@ line-height:1.2;
 font-size:16px;
 max-width:300px;
 }
-
 
 
 /* BUTTONS */
@@ -328,7 +324,6 @@ align-items:center;
 
 .btn{
 width:200px;
-text-align:center;
 }
 
 
@@ -336,17 +331,9 @@ text-align:center;
 /* SECTIONS */
 
 section{
-padding:60px 20px;
+padding:70px 20px;
 }
 
-
-section h2{
-font-size:28px;
-}
-
-
-
-/* CARDS */
 
 .skills-grid,
 .projects-grid{
@@ -354,96 +341,32 @@ grid-template-columns:1fr;
 }
 
 
-.card{
-padding:20px;
-}
-
-
-.project-card img{
-height:180px;
-}
-
-
-
-footer{
-font-size:14px;
-padding:15px;
-}
-
 
 }
-
 
 
 /* SMALL PHONES */
 
 @media(max-width:480px){
 
+nav{
+flex-direction:column;
+gap:8px;
+}
+
+
+nav ul{
+gap:10px;
+}
+
+
+.hero{
+padding-top:160px;
+}
+
 
 .hero h1{
 font-size:28px;
 }
 
-
-.hero p{
-font-size:15px;
-}
-
-
-section h2{
-font-size:24px;
-}
-
-
-nav{
-padding:15px;
-}
-
-
-.project-card h3{
-font-size:20px;
-}
-
-
-.project-card p{
-font-size:14px;
-}
-
-}
-
-
-
-/* DARK MODE */
-
-.dark-mode{
-background:linear-gradient(135deg,#f29399,#000);
-color:white;
-}
-
-
-.dark-mode header{
-background:rgba(0,0,0,.7);
-}
-
-
-.dark-mode nav a{
-color:white;
-}
-
-
-.dark-mode nav a:hover,
-.dark-mode nav a.active{
-color:#f29399;
-}
-
-
-.dark-mode .card,
-.dark-mode .project-card{
-background:#111;
-box-shadow:0 6px 15px rgba(0,0,0,.3);
-}
-
-
-.dark-mode footer{
-background:#111;
 }
