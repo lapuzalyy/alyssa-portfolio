@@ -121,7 +121,7 @@ system efficiency.
 </footer>
 
 <script>
-  
+
 // card animation
 const cards = document.querySelectorAll(".card, .project-card");
 
@@ -129,58 +129,72 @@ window.addEventListener("scroll", () => {
 
 cards.forEach(card => {
   const cardTop = card.getBoundingClientRect().top;
+
   if(cardTop < window.innerHeight - 50){
     card.style.opacity = "1";
     card.style.transform = "translateY(0)";
-    }
-  });
+  }
 
 });
-</script>  
 
-<script>
+});
+
+
+// DARK MODE
 
 const toggle = document.getElementById("darkModeToggle");
 
 toggle.addEventListener("click", () => {
+
 document.body.classList.toggle("dark-mode");
 
+
 if(document.body.classList.contains("dark-mode")){
-toggle.textContent = "☀️";
+    toggle.textContent = "☀️";
 }else{
-toggle.textContent = "🌙";
+    toggle.textContent = "🌙";
 }
+
 });
 
 
+// ACTIVE NAV
+
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav ul li a");
+
 
 window.addEventListener("scroll", () => {
 
 let current = "";
 
+
 sections.forEach(section => {
 
 const sectionTop = section.offsetTop - 100;
 
+
 if(pageYOffset >= sectionTop){
-current = section.getAttribute("id");
+    current = section.getAttribute("id");
 }
 
 });
+
 
 navLinks.forEach(link => {
 
 link.classList.remove("active");
 
+
 if(link.getAttribute("href").includes(current)){
-link.classList.add("active");
+    link.classList.add("active");
 }
 
 });
 
+
 });
+
 
 </script>
   
