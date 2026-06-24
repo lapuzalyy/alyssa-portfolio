@@ -370,3 +370,73 @@ font-size:28px;
 }
 
 }
+
+/* =========================
+   DARK MODE
+========================= */
+
+body.dark-mode{
+background:#111;
+color:#eee;
+}
+
+
+/* navbar */
+body.dark-mode header{
+background:rgba(20,20,20,0.8);
+}
+
+
+body.dark-mode nav a{
+color:#eee;
+}
+
+
+body.dark-mode nav a:hover,
+body.dark-mode nav a.active{
+color:#f29399;
+}
+
+
+/* hero */
+body.dark-mode .hero{
+color:white;
+}
+
+
+/* cards */
+
+body.dark-mode .card,
+body.dark-mode .project-card{
+background:#1e1e1e;
+color:white;
+box-shadow:0 8px 20px rgba(255,255,255,0.05);
+}
+
+
+/* buttons */
+
+body.dark-mode .btn{
+background:#f29399;
+color:white;
+}
+
+
+body.dark-mode .btn:hover{
+background:white;
+color:black;
+}
+
+
+/* footer */
+
+body.dark-mode footer{
+background:rgba(20,20,20,.8);
+color:white;
+}
+
+
+/* contact */
+body.dark-mode section p{
+color:#ddd;
+}
